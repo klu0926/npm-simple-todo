@@ -1,6 +1,6 @@
 {
   "name": "@klu0926/todo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple local todo list directly in your app for easy access",
   "main": "index.js",
   "type": "module",
