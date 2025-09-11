@@ -316,7 +316,7 @@ function createTodoButton({
 }
 
 
-export default function init({
+export default function initTodo({
   storageName, // required;
   color = 'black',
   position = 'right',

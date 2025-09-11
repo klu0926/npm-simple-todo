@@ -1,8 +1,8 @@
 {
   "name": "@klu0926/todo",
-  "version": "1.0.7",
-  "description": "A simple local todo list directly in your app for easy access",
-  "main": "index.js",
+  "version": "1.0.8",
+  "main": "index.js",            
+  "types": "index.d.ts",          
   "type": "module",
   "exports": {
     ".": {
@@ -12,6 +12,7 @@
   },
   "files": [
     "index.js",
+    "index.d.ts",                
     "todo.js",
     "style.js",
     "svg.js",
@@ -19,7 +20,6 @@
     "README.md",
     "LICENSE"
   ],
-  "keywords": [],
   "author": "Kuo Yu Lu",
   "license": "MIT"
 }
