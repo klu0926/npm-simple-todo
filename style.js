@@ -25,8 +25,8 @@ export const BTN_STYLE = `
   }
 
   #my-simple-todo svg {
-  width: 80%;
-  height: 80%;
+  width : 25px;
+  height: 25px;
   pointer-events: none;
 }
 `
