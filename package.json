@@ -1,0 +1,15 @@
+{
+  "name": "@klu0926/todo",
+  "version": "1.0.0",
+  "description": "A simple local todo list directly in your app for easy access",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [],
+  "author": "Kuo Yu Lu",
+  "license": "MIT"
+}
