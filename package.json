@@ -6,6 +6,10 @@
   "type": "module",
   "files": [
     "index.js",
+    "storage.js",
+    "style.js",
+    "svg.js",
+    "todo.js",
     "README.md",
     "LICENSE"
   ],

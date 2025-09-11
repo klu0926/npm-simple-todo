@@ -1,7 +1,2 @@
 import todo from './todo.js'
-const storageName = 'first-project'
-
-todo({
-  storageName,
-})
-
+export default todo
