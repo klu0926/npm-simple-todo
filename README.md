@@ -16,7 +16,7 @@ Todos are saved in **localStorage**, so they persist between sessions.
 npm install @klu0926/todo
 ```
 
-## 2. Usage
+## Usage (with bundler like Vite / Webpack)
 
 ```js
 import init from 'my-simple-todo'
@@ -28,8 +28,37 @@ init({
   hasShortcuts: true,
 })
 ```
+Init property: 
 
 - storageName (required) : unique name for localStorage key
 - color (optional) : tobo button color, default black
 - position (optional) : display on left / right, default to right
 - hashShortcuts (optional) : allow toggle with ` key, default to true
+
+
+## ⚡ Usage with Next.js (App Router)
+
+```js
+"use client";
+
+import { useEffect } from "react";
+import todo from "@klu0926/todo";
+
+export default function Home() {
+  useEffect(() => {
+    todo({
+      storageName: "myApp",
+      color: "black",
+      position: "right",
+      hasShortcuts: true,
+    });
+  }, []);
+
+  return (
+    <main>
+      <h1>Welcome to Next.js</h1>
+      <p>Click the floating button to open the todo panel.</p>
+    </main>
+  );
+}
+```

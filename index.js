@@ -1,2 +1,1 @@
-import todo from './todo.js'
-export default todo
+export { default } from "./todo.js";

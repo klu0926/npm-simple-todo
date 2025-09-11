@@ -1,15 +1,21 @@
 {
   "name": "@klu0926/todo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple local todo list directly in your app for easy access",
   "main": "index.js",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
   "files": [
     "index.js",
-    "storage.js",
+    "todo.js",
     "style.js",
     "svg.js",
-    "todo.js",
+    "storage.js",
     "README.md",
     "LICENSE"
   ],
