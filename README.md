@@ -1,6 +1,6 @@
 # Npm Simple Todo Addon
 
-![Todo Screenshot](my-todo.png)
+![Todo Screenshot](https://raw.githubusercontent.com/klu0926/npm-simple-todo/refs/heads/master/my-todo.png)
 
 A simple todo list for your local development process! It create a floating todo list toggle on your site, and you can toggle your todo list with ease.
 
