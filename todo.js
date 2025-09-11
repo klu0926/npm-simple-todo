@@ -216,11 +216,21 @@ export function toggleTodoScreen(storage) {
     }
   }
 
-  document.addEventListener('keyup', (e) => {
+  // prevent ` from typing into the input
+  input.addEventListener('keydown', (e) => {
+    if (e.key === '`') {
+      e.preventDefault();
+    }
+  })
+
+  // press enter to save todo
+  input.addEventListener('keyup', (e) => {
     if (e.key === 'Enter' && list) {
       enterTodo()
     }
   })
+
+  // click 'enter' to save todo
   enter.addEventListener('click', () => {
     enterTodo()
   })

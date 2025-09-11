@@ -5,12 +5,10 @@
 
 ![Todo Screenshot](https://raw.githubusercontent.com/klu0926/npm-simple-todo/refs/heads/master/my-todo.png)
 
-
 A simple floating todo list widget for your local development! Quickly toggle the todo panel with a floating button.  
 You can also press <code>`</code> to toggle the todo list.
 
 Todos are saved in **localStorage**, so they persist between sessions.
-
 
 ## ⚙️ Properties
 
@@ -20,7 +18,6 @@ Todos are saved in **localStorage**, so they persist between sessions.
 | color        | `string`              | ❌ No    | `"black"` | Button color (CSS valid color).                  |
 | position     | `"left"` \| `"right"` | ❌ No    | `"right"` | Which side to place the floating button.         |
 | hasShortcuts | `boolean`             | ❌ No    | `true`    | Enable toggle via backtick key (<code>`</code>). |
-
 
 ## 📦 Option 1: With Bundlers / Frameworks
 
@@ -44,7 +41,6 @@ todo({
   hasShortcuts: true,
 })
 ```
-
 
 ### 🧪 Example in Next.js (App Router)
 
@@ -76,7 +72,6 @@ export default function Home() {
 }
 ```
 
-
 ## 🌐 Option 2: Browser / CDN Usage (No bundler needed)
 
 Load it directly in the browser via CDN:
@@ -96,7 +91,6 @@ Load it directly in the browser via CDN:
 
 You don’t need to install anything if you just want to use it in plain HTML pages.
 
-
 ## 🔗 CDN Links
 
 - Latest version (jsDelivr):  
@@ -105,14 +99,12 @@ You don’t need to install anything if you just want to use it in plain HTML pa
 - Specific version example:  
   `https://cdn.jsdelivr.net/npm/@klu0926/todo@1.0.9/index.js`
 
-
 ## 🚀 Why two usage modes?
 
 Because developers work in different environments:
 
 - **Bundlers/frameworks** (React, Vue, Next.js, etc.) need imports and benefit from npm/Yarn, type declarations, tree-shaking, etc.
 - **Browser-only / simple static pages** can use CDN to include without build tools.
-
 
 ## 🧾 License
 
